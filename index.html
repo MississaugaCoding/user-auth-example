@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>User Auth Example</title>
+
+
+</head>
+
+<body>
+    <h1>User Auth Example</h1>
+
+    <button id="btnSignUp">Sign Up</button>
+    <button id="btnSignIn">Sign In</button>
+    <button id="btnSignOut">Sign Out</button>
+
+    <div id="divMsg" class="msg"></div>
+
+
+    <!-- sign up modal -->
+    <div id="divSignUp" class="modal">
+        <div class="modal-content">
+            <span id="btnCloseSignUp" class="close-button">×</span>
+            <h2>Sign Up New User</h2>
+            <div>
+                <label for="signUpEmail">E-Mail</label><br>
+                <input id="signUpEmail" type="text" placeholder="enter e-mail address">
+            </div>
+            <div>
+                <label for="signUpPwrd">Password</label><br>
+                <input id="signUpPwrd" type="password" placeholder="enter password">
+            </div>
+            <div>
+                <label for="signUpPwrdConf">Confirm Password</label><br>
+                <input id="signUpPwrdConf" type="password" placeholder="confirm password">
+            </div>
+            <button id="btnSubmitSignUp">Sign Up</button>
+            <p class="error" id="errSignUp"></p>
+        </div>
+    </div>
+
+
+     <!-- sign in modal -->
+     <div id="divSignIn" class="modal">
+        <div class="modal-content">
+            <span id="btnCloseSignIn" class="close-button">×</span>
+            <h2>Sign In Existing User</h2>
+            <div>
+                <label for="signInEmail">E-Mail</label><br>
+                <input id="signInEmail" type="text" placeholder="enter e-mail address">
+            </div>
+            <div>
+                <label for="signInPwrd">Password</label><br>
+                <input id="signInPwrd" type="password" placeholder="enter password">
+            </div>            
+            <button id="btnSubmitSignIn">Sign In</button>
+            <p class="error" id="errSignIn"></p>
+        </div>
+    </div>
+
+    <!-- add item modal -->
+    <div id="divAddItem" class="modal">
+        <div class="modal-content">
+            <span id="btnCloseAddItem" class="close-button">×</span>
+            <h2>Add New Item</h2>
+            <div>
+                <label for="itemText">Text</label><br>
+                <input id="itemText" type="text" placeholder="enter new item">
+            </div>            
+            <button id="btnSubmitAddItem">Save</button>
+            <p class="error" id="errAddItem"></p>
+        </div>
+    </div>
+  
+
+
+    <div id="divData">
+        <ul id="list"></ul>
+        <p id="itemCount"></p>
+        <button id="btnAddItem">Add Item</button>
+    </div>
+    
+
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>    
+        <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyBLWBK2SafzrC5eHnKL5Ji1Y5To0VsNFMk",        
+        projectId: "user-auth-take01",        
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    
+    //Initialize Cloud Firestore through Firebase
+    var db = firebase.firestore();
+    </script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
