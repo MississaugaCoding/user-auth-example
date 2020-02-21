@@ -16,3 +16,22 @@ Related reference links:
   - [More about security rules](https://medium.com/@khreniak/advanced-examples-of-using-cloud-firestore-security-rules-9e641d023c7e)
 - [Async/Await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
 
+
+-----
+
+Join us at Mississauga Coding! 
+=================================
+
+Find out about upcoming events by checking out: 
+----------------------------------------------
+
+- [Our meetup page](http://www.meetup.com/Mississauga-Coding/) 
+- [Our Slack channel](https://goo.gl/J69cro)
+
+Post your questions on any of these forums, attend our events, learn and share.
+
+Happy Coding!
+
+
+![Mississauga Coding](https://github.com/MississaugaCoding/mississaugacoding.github.io/blob/master/favicon-32x32.png "Mississauga Coding")
+
