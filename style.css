@@ -1,9 +1,19 @@
 * {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    box-sizing: border-box;
 }
 
-
+.navbar {
+    display: flex;
+    align-items: center;    
+    width: 100%;
+    background: #eee;
+    padding: 5px;    
+}
+.navbar > div {
+    margin-right: 10px;
+}
 
 .modal {
     position: fixed;
