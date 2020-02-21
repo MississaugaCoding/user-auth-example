@@ -26,7 +26,7 @@ Find out about upcoming events by checking out:
 ----------------------------------------------
 
 - [Our meetup page](http://www.meetup.com/Mississauga-Coding/) 
-- [Our Slack channel](https://goo.gl/J69cro)
+- [Our Slack channel](https://bit.ly/2uEnt2C)
 
 Post your questions on any of these forums, attend our events, learn and share.
 
