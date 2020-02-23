@@ -3,7 +3,7 @@ Example of user authentication and data access using Google Firebase and Firesto
 
 - [Step notes](https://bit.ly/2OVxr79)
 
-- [Finished example](https://bit.ly/38NKobb)
+- [Demo example](https://bit.ly/38NKobb)
 
 Related reference links:
 
