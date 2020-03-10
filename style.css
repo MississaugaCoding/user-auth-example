@@ -1,18 +1,11 @@
+
 * {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    box-sizing: border-box;
 }
 
-.navbar {
-    display: flex;
-    align-items: center;    
-    width: 100%;
-    background: #eee;
-    padding: 5px;    
-}
-.navbar > div {
-    margin-right: 10px;
+.modal-content input, .modal-content button {
+    margin: 10px 0;
 }
 
 .modal {
@@ -53,19 +46,14 @@
     visibility: visible;       
 }
 
-.modal-content input, .modal-content button {
-    margin: 10px 0;
-}
-
 button {
-    background-color: blue;
+    background-color: blue;    
     color: white;
     border: none;
     padding:10px;
     font-size: 1.1rem;
     border-radius: 5px;
-}
-
+} 
 input { 
     font-size: 1.1rem; 
 }
@@ -73,20 +61,3 @@ input {
 .error {    
     color: red;
 }
-
-.msg {
-    background-color: lightgrey;    
-    border: none; 
-    padding:10px;    
-    margin:10px 0;
-    font-size: 1.1rem;    
-    border-radius: 5px;
-}
-
-#btnAddItem {    
-    visibility: hidden;        
-}
-#btnAddItem.show-button {    
-    visibility: visible;       
-}
-
